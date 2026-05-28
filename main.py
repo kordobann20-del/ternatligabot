@@ -30,11 +30,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен вашего бота (ЗАМЕНИТЕ НА СВОЙ ТОКЕН ОТ @BotFather)
-BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+BOT_TOKEN = "8886116833:AAEDyyrYKXH3WtY2BBFCOe4lZcaqlYBEaXY"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Список ID администраторов (ЗАМЕНИТЕ НА ВАШ TELEGRAM ID)
-ADMIN_IDS = [123456789, 987654321]
+ADMIN_IDS = [7908057052, 1674945230]
 
 # Папка для хранения всех файлов базы данных
 DB_DIR = "database"
